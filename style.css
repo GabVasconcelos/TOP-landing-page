@@ -59,6 +59,7 @@ ul {
     width: 75vw;
     padding: 64px 0px;
     justify-content: space-between;
+    gap: 8px;
 }
 
 .headercontent .content {
@@ -90,28 +91,85 @@ ul {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 50px 0px;
+    gap: 20px;
 }
 
 .information .text {
+    font-size: 36px;
+    font-weight: bolder;
     color: black;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .infocards {
     display: flex;
     justify-content: center;
-    gap: 8px;
+    gap: 16px;
+    flex-wrap: wrap;
 }
 
 .card {
+    color: #1F2937;
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 250px;
+    height: 300px;
+    gap: 8px;
+    text-align: center;
+    /* justify-content: space-between; */
+}
+
+.card .imgcontainer {
+    width: inherit;
+    height: 250px;
+    display: flex;
 }
 
 .card img {
+    width: inherit;
+    height: auto;
     border-style: solid;
     border-radius: 8px;
-    /* padding: 8px; */
     border-color: rgb(50, 150, 250);
-    width: 30%;
+    object-fit: fill;
+    image-rendering: optimizeQuality;
 }
+
+.feedback {
+    padding: 25px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: #E5E7EB;
+}
+
+.quote .text {
+    width: 55vw;
+    text-align: center;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: lighter;
+}
+
+.quote .quoter {
+    font-weight: bold;
+    display: flex;
+    justify-content: end;
+    align-content: flex-end;
+}
+
+
+
+/*     width: 12em;
+    height: 14em;
+    object-fit: cover;
+    border: 0.3em solid rgb(255, 255, 255);
+    border-radius: 1.5em;
+    box-shadow: 0 10px 30px black;
+    transition: 0.3s;
+    margin: -0.5em -1em -1em -1em; */
