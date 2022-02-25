@@ -163,7 +163,41 @@ ul {
     align-content: flex-end;
 }
 
+.calltoaction {
+    display: flex;
+    padding: 64px;
+    justify-content: center;
+    color: white;
+    
+}
 
+.calltoaction .container {
+    width: 60vw;
+    display: flex;
+    justify-content: space-between;
+    gap: 64px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    border: none;
+    padding: 16px 64px;
+    align-items: center;
+}
+
+.container button {
+    border-style: solid;
+    border-radius: 8px;
+    border-color: white;
+    border-width: 3px;
+    padding: 8px 16px;
+}
+
+.footer {
+    display: flex;
+    padding: 32px;
+    justify-content: center;
+    background-color: #1F2937;
+    color: white;
+}
 
 /*     width: 12em;
     height: 14em;
