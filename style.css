@@ -41,12 +41,15 @@ ul {
 }
 
 .headertop {
+    position: fixed;
+    background-color: #1F2937;
     color: #F9FAF8;
     font-size: 24px;
     display: flex;
-    justify-content: space-between;
-    padding: 8px 24px;
-    width: 75vw;
+    justify-content: space-evenly;
+    padding: 8px 100px;
+    width: 100%;
+    top: 0;
 }
 
 .header a {
